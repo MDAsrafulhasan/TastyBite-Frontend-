@@ -108,7 +108,7 @@ const Addcart = (foodId) => {
                 .then(res => res.json())
                 .then(data => {
                     console.log(data);
-                    // alert("Food added successfully to cart!");
+                    alert("Food added successfully to cart!");
                 })
                 .catch((error) => {
                     console.error('Error:', error);
